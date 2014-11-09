@@ -1,0 +1,4 @@
+%p 
+  %b= review.potatoes
+  %b= review.potatoes == 1 ? "potato" : "potatoes" 
+  from #{review.moviegoer.name}#{':' if review.comments} #{review.comments}

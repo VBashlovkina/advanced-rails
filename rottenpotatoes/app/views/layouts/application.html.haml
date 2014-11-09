@@ -9,6 +9,7 @@
   %body
     %h1.title Rotten Potatoes!
     #main
+      = render :partial => 'sessions/login'
       - if flash[:notice]
         #notice.message= flash[:notice]
       - elsif flash[:warning]

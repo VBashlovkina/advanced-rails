@@ -42,3 +42,8 @@ gem 'jquery-rails'
 
 # To use debugger
 gem 'haml'
+
+
+# Omniauth
+gem 'omniauth'
+gem 'omniauth-twitter'
